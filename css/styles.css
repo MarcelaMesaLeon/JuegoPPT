@@ -13,6 +13,10 @@ h1{
     font-size: 55px;
     text-align: center;
     padding: 40px;
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
 }
 .containerIcons{
     display: flex;
@@ -24,6 +28,10 @@ div i{
     color: #1C2833;
     font-size: 90px;
     padding: 15px;
+    transition: color 250ms;
+}
+div i:hover{
+    color: #17A589;
 }
 div h3{
     text-align: center;
@@ -58,5 +66,15 @@ div h3{
     padding: 10px;
     background-color: #D2B4DE;
     border-color: #A569BD;
-
+    transition: all 500ms;
+}
+#boton:hover{
+    background-color: #17A589;
+    color: #FDEBD0;
+    border-style: none;
+}
+@keyframes titulo {
+    0% {opacity: 10% }
+    50% { transform: scale(1.1); opacity: 100%}
+    100% { opacity: 10%}
 }
