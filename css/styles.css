@@ -24,14 +24,21 @@ h1{
     color: #D98880;
     font-size: 38px;
 }
+.usuario i{
+    color: #1C2833;
+    font-size: 90px;
+    padding: 15px;
+    transition: color 250ms;
+    cursor: pointer;
+}
+.usuario i:hover{
+    color: #17A589;
+}
 div i{
     color: #1C2833;
     font-size: 90px;
     padding: 15px;
     transition: color 250ms;
-}
-div i:hover{
-    color: #17A589;
 }
 div h3{
     text-align: center;
@@ -67,6 +74,7 @@ div h3{
     background-color: #D2B4DE;
     border-color: #A569BD;
     transition: all 500ms;
+    cursor: pointer;
 }
 #boton:hover{
     background-color: #17A589;
