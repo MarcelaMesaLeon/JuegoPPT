@@ -39,6 +39,8 @@ if(eleccionMaquina=="3"){
         alert("Empatados!");
     }
 }
-
 //No olvidar el tipo de dato que se esta asignando y la comparacion que se realiza//
-
+const piedra = document.getElementById("piedra");
+piedra.addEventListener('click', function() {
+    alert("click");
+})
